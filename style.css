@@ -4,9 +4,15 @@ body{
 
 #grid{
     display: grid;
-    grid-template-columns: repeat(16, 32px);
-    grid-template-rows: repeat(16, 32px);
-    
+}
+
+#drawing-area{
+    display: flex;
+    flex-grow: 50%;
+    flex-shrink: 0; 
+    gap: 12px;
+    justify-content: center;
+    align-content: center;
 }
 
 .pixel{
